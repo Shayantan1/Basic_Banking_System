@@ -1,0 +1,31 @@
+<%- include("partials/header") %>
+
+<div class="transactionHistory-div">
+<div class="transactionHistory-header">
+    <h1 class="transaction-head">TRANSACTION HISTORY</h1>
+</div>
+
+<table style="padding-bottom:0px" class="table table-striped">
+<thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Transferred From</th>
+    <th scope="col">Transferred To</th>
+    <th scope="col">Amount Transferred</th>
+  </tr>
+</thead>
+<% var i=1 %>
+<% for(let transaction of transactions){ %>
+  <tbody>
+  <tr>
+    <th scope="row"><%=i++%></th>
+    <td><%= transaction.depositName %></td>
+    <td><%= transaction.withdrawName %></td>
+    <td><%= transaction.transferAmount %></td>
+  </tr>
+  </tbody>
+  <% } %>
+</table>
+</div>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,55 @@
+const dummyData=[
+  {
+    name:'Arun',
+    email:'arun4@gmail.com',
+    balance:75000
+  },
+  {
+    name:'Amit',
+    email:'amit5@gmail.com',
+    balance:80000
+  },
+  {
+    name:'Arya',
+    email:'arya7@gmail.com',
+    balance:30000
+  },
+  {
+    name:'Surya',
+    email:'srya4@gmail.com',
+    balance:90000
+  },
+  {
+    name:'Sachin',
+    email:'sachin7@gmail.com',
+    balance:68000
+  },
+  {
+    name:'Sunil',
+    email:'sunil1@gmail.com',
+    balance:90000
+  },
+  {
+    name:'Kartik',
+    email:'kartik23@gmail.com',
+    balance:35000
+  },
+  {
+    name:'Rahul',
+    email:'rahul45@gmail.com',
+    balance:68000
+  },
+  {
+    name:'Ravi',
+    email:'ravi2@gmail.com',
+    balance:89000
+  },
+  {
+    name:'Roshan',
+    email:'roshan1@gmail.com',
+    balance:78000
+  }
+
+]
+
+exports.dummyData=dummyData;

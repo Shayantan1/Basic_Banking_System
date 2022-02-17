@@ -1,0 +1,180 @@
+.heading {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+
+}
+
+.Divheading{
+  background-color: #CAF0F8;
+  padding-top:70px;
+  padding-bottom:250px;
+}
+
+.para{
+  padding-top: 15px;
+  text-align: center;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal
+}
+
+.foot-division{
+  background-color: #1C6DD0;
+  padding-bottom: 12px;
+}
+
+.foot{
+  text-align: center;
+  padding-top: 20px;
+  color: #FFFFFF;
+}
+
+.customerDiv{
+    background-color: #CAF0F8;
+    padding-bottom: 8px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.customerhead{
+text-align: center;
+padding-top: 10px;
+font-family:serif;
+text-decoration: underline;
+}
+
+.customerpara{
+  font-family:serif;
+  text-align:center;
+}
+
+.select-btn{
+	background-color:#0099ff;
+	border-radius:5px;
+	border:none;
+}
+.select-btn a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.select-btn:hover {
+    background-color: #F2AF29;
+}
+
+.bah{
+  color:red;
+  padding-left: 100px;
+}
+
+.transfer-div{
+  background-color: #CAF0F8;
+  padding-bottom:8px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.transfer-heading{
+  text-align: center;
+  padding-top: 10px;
+  font-family:serif;
+  text-decoration: underline;
+}
+
+
+.transfer-button{
+  background-color:#1ac6ff;
+  border:none;color:#ffffff;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.outer-div{
+  background-color: #CAF0F8;
+  padding-bottom:8px;
+}
+
+.inner-divone{
+  font-size:15px;
+  font-family:serif;
+  padding:0;margin:0;
+  text-align:center;
+}
+
+.inner-divtwo{
+  margin-top:5px;
+  text-align:center;
+  padding:2px;
+  margin-bottom:152px
+}
+
+.deposit-heading{
+  margin-top:0;
+  color:#3D2C8D;
+  font-weight:bold;
+  padding-top:10px
+}
+
+.deposit-headingtwo{
+  margin-top:7px;
+  color:#3D2C8D;
+  font-weight:bold;
+}
+
+.label-style{
+  font-size:17px;
+  font-family: serif;
+}
+
+.input-style{
+  padding:3px;
+  margin:5px;
+  font-size:20px;
+}
+
+.deposit-button{
+  margin:0;
+  align-items:center;
+  text-transform: uppercase;
+  padding : 0.2rem;
+  background-color: #d7263d;
+  color: whitesmoke;
+}
+
+.error-div{
+    background-color: #CAF0F8;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.error-headingone{
+  text-align: center;
+  padding-top: 55px;
+  font-family: sans-serif;
+}
+
+.error-headingtwo{
+  text-align: center;
+  padding-top: 30px;
+  font-family: sans-serif;
+  padding-bottom: 355px;
+  margin-bottom: 0;
+}
+
+.transactionHistory-header{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.transactionHistory-div{
+  background-color: #CAF0F8;
+  padding-bottom: 465px;
+  padding-left: 40px;
+  padding-right:40px;
+}
+
+.transaction-head{
+  font-family: serif;
+}

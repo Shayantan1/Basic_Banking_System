@@ -1,0 +1,37 @@
+<%- include("partials/header") %>
+
+<div class="transfer-div">
+
+
+<h2 class="transfer-heading">Transfer to:</h2>
+
+<table style="margin-bottom:62px;"  class="table table-striped transfer-table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Balance</th>
+      <th scope="col">Transfer</th>
+    </tr>
+  </thead>
+  <% var i=1 %>
+  <% for(let current of persons){ %>
+        <% if(!person._id.equals(current._id)){ %>
+  <tbody>
+    <tr>
+      <th scope="row"><%=i++%></th>
+      <td><%= current.name %></td>
+      <td><%= current.email %></td>
+      <td><%= current.balance %></td>
+      <td><button class="transfer-button"><a href="/view/<%= person._id %>/<%=current._id %>">Transfer</a></button></td>
+    </tr>
+    <% } %>
+    <% } %>
+
+  </tbody>
+</table>
+
+</div>
+
+<%- include("partials/footer") %>

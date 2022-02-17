@@ -1,0 +1,36 @@
+<%- include("partials/header") %>
+
+<div class="customerDiv" >
+  <h1 class="customerhead">Customer's List</h1>
+  <p class="customerpara">
+    Select your account.
+    </p>
+    <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Balance</th>
+        <th scope="col">Select</th>
+      </tr>
+    </thead>
+    <% var i=1 %>
+    <% for(let person of persons){ %>
+      <tbody>
+      <tr>
+        <th scope="row"><%=i++%></th>
+        <td><%= person.name %></td>
+        <td><%= person.email %></td>
+        <td><%= person.balance %></td>
+        <td><button class="select-btn"><a href="/view/<%= person._id %>">Select</a>
+			 </button></td>
+      </tr>
+      </tbody>
+      <% } %>
+  </table>
+
+  </div>
+
+
+<%- include("partials/footer") %>
