@@ -1,4 +1,3 @@
-const { concatSeries } = require('async');
 const express =require('express');
 const app = express();
 const path = require('path');
@@ -7,11 +6,10 @@ const methodOverride =require('method-override');
 const bodyParser = require("body-parser");
 const dummyData = require('./data.js').dummyData;
 
-
 const customer= require('./models/customer');
 const Transaction= require('./models/transaction');
 
-mongoose.connect('mongodb://localhost:27017/bank',{
+mongoose.connect('mongodb+srv://admin-Shayantan:Test123@cluster0.1kb6c.mongodb.net/bank',{
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -138,6 +136,11 @@ app.get("/history",function(req,res){
   });
 });
 
-app.listen(3000, function() {
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, function() {
   console.log("Server has started successfully.");
 });
